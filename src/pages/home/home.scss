@@ -1,0 +1,29 @@
+page-home {
+  .cover {
+    width: 270px;
+    height: 270px;
+    background-position: 0 0;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url('../assets/imgs/cover.default.png');
+    background-size: contain;
+  }
+
+  #meta {
+    text-align: center;
+
+    #artist {
+      font-size: 2.0rem;
+    }
+
+    #title {
+      font-size: 2.0rem;
+    }
+  }
+
+  #trackProgress {
+    .range-knob {
+      display: none;
+    }
+  }
+}
